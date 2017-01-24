@@ -6,7 +6,6 @@ setup(
     author='Bradley Natarian',
     description='A test python package',
 	packages=['PyPackage'],
-	package_data={'PyPackage.Resources': ['*.csv'],
-							  'PyPackage.Resources2':['*']},
+	include_package_data=True,
     install_requires=['pandas'],
 )
